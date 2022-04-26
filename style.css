@@ -1,3 +1,16 @@
-@media screen and (max-width:600px){
-    main-contact:
+
+.logo{
+    height: 15vh;
+}
+.header{
+    min-width: 200px;
+    background-color: gray;
+    color:red;
+    height: 30vh;
+    margin: 0px;
+    
+}
+a{
+    color:red;
+
 }
