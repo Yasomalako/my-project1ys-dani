@@ -9,8 +9,6 @@ body{
 a{
     color:red;
     border-radius: 10%;
-    font-family:a ;
-
 }
 a:hover{
     background-color: silver;
@@ -20,9 +18,11 @@ header{
     border-bottom: 2px solid red;
 }
 .footerimg{
-    height: 4vh;
+    height: 3vh;
+
 }
 .col{
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
+    font-size: 3vw;
+    font-weight: bolder;
+    align-items: center;
 }
