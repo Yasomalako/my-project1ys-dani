@@ -21,3 +21,7 @@ header{
 .footerimg{
     height: 4vh;
 }
+.col{
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
