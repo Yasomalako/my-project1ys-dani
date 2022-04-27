@@ -9,14 +9,15 @@ body{
 a{
     color:red;
     border-radius: 10%;
+    font-family: ;
 
 }
 a:hover{
-    background-color: gray;
+    background-color: silver;
 }
 header{
     height: 15vh;
-    position: sticky;
+    
 }
 .footerimg{
     height: 4vh;
