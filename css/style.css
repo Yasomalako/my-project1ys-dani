@@ -9,11 +9,6 @@ body{
 a{
     color:red;
     border-radius: 10%;
-<<<<<<< HEAD:css/style.css
-    
-
-=======
->>>>>>> b10a284f048be83e1cc9601927aa4717663db8ea:style.css
 }
 a:hover{
     background-color: silver;
@@ -43,14 +38,7 @@ header{
 }
 
 .col{
-<<<<<<< HEAD:css/style.css
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-}
-
-=======
     font-size: 3vw;
     font-weight: bolder;
     align-items: center;
 }
->>>>>>> b10a284f048be83e1cc9601927aa4717663db8ea:style.css
