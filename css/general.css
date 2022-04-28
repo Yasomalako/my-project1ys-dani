@@ -8,3 +8,10 @@
 footer img {
     width: 6vw;
 }
+a{
+    color:red;
+    border-radius: 10%;
+}
+a:hover{
+    background-color: silver;
+}
