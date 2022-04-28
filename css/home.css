@@ -1,10 +1,5 @@
-body{
-    background-color: red;
-   
-}
-
 .logo{
-    height:90px;
+    height:5vh;
 }
 a{
     color:red;
@@ -16,12 +11,8 @@ a:hover{
 header{
     display: block;
     height: 15vh;
-    border-bottom: 2px solid red;
 }
-.footerimg{
-    height: 3vh;
 
-}
 .article{
     display: block;
     background-color: lightblue;
@@ -37,8 +28,4 @@ header{
     background-size: cover;
 }
 
-.col{
-    font-size: 3vw;
-    font-weight: bolder;
-    align-items: center;
-}
+
