@@ -1,16 +1,9 @@
-.logo{
-    height:5vh;
-}
 a{
     color:red;
     border-radius: 10%;
 }
 a:hover{
     background-color: silver;
-}
-header{
-    display: block;
-    height: 15vh;
 }
 
 .article{
@@ -28,12 +21,3 @@ header{
     background-size: cover;
 }
 
-<<<<<<< HEAD:css/style.css
-.col{
-    font-size: 3vw;
-    font-weight: bolder;
-    align-items: center;
-}
-=======
-
->>>>>>> bf433b3d69795f1b2319b875f5c7eb0d229dd3e4:css/home.css
