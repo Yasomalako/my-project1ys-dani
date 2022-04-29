@@ -1,4 +1,6 @@
-
+body{
+    background-color: black;
+}
 .navbar-brand img{
     width: 15vw;
 }
@@ -6,7 +8,7 @@
     height:5vh;
 }
 footer img {
-    width: 6vw;
+    width: 3vw;
 }
 a{
     color:red;

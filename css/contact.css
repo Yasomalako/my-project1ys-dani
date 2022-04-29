@@ -6,44 +6,9 @@ body{
 .navbar-brand img{
     width: 15vw;
 }
-.main img{
-    width: 20vw;
-}
-.main{
-    font-size:1vh;
-}
-.headcontact{
-    font-size: 5vh;
-    text-align: center;
-    color: white;
-}
-.headcontact1{
-    font-size: 2.5vh;
-    text-align: center;
-    color: white;
-    justify-content: center;
-}
-.d-flex{
-    color: white;
-    font-size: small;
-    justify-content: center;
-
-}
-.number{
-    color: white;
-    justify-content: center;
-}
-input{
-    background-color:rgb(212, 212, 212);
-    border-color: brown;
-}
-.textareaarea{
-    justify-content: center;
-
-}
-textarea{
-    background-color:rgb(212, 212, 212);
-}
+.imgcontact{
+    width: 1vw;
+} 
 footer img {
     width: 6vw;
 }
