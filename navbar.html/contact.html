@@ -5,74 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/general.css">
-    <link rel="icon" href="/photos/logo daniel yaso.png"><link>
+    <link rel="icon" href="/photos/logo daniel yaso.png">
+    <link>
     <title>Daniel & Yaso FightClub</title>
 </head>
 
 <body>
-    
-<div class="container-fluid">
-    <header class="navbar navbar-dark bg-dark justify-content-center fixed-top ">
-        <a class="nav-link justify-content-start" href="/index.html"><img class="logo rounded-start" src="/photos/logo daniel yaso.png" alt=""></a>
-        <a class="nav-link text-danger" href="/index.html">Home</a>
-        <a class="nav-link text-danger" href="/navbar.html/Video's.html">videos</a>
-        <a class="nav-link text-danger" href="/navbar.html/About.html">About</a>
-        <a class="nav-link text-danger" href="/navbar.html/Team.html">Team</a>
-        <a class="nav-link text-danger" href="/navbar.html/contact.html">contact</a>
-    </header>
-</div>
+
+    <div class="container-fluid pb-5">
+        <header class="navbar navbar-dark bg-dark justify-content-center fixed-top ">
+            <a class="nav-link justify-content-start" href="/index.html"><img class="logo rounded-start"
+                    src="/photos/logo daniel yaso.png" alt=""></a>
+            <a class="nav-link text-danger" href="/index.html">Home</a>
+            <a class="nav-link text-danger" href="/navbar.html/Video's.html">videos</a>
+            <a class="nav-link text-danger" href="/navbar.html/About.html">About</a>
+            <a class="nav-link text-danger" href="/navbar.html/Team.html">Team</a>
+            <a class="nav-link text-danger" href="/navbar.html/contact.html">contact</a>
+        </header>
+    </div>
 
 
-<div class="container mt-5">
-    <div class="row text-center text-danger pt-5">
-        <h1>Contact us</h1>
-    </div>
-    <div class="row text-center text-danger pt-5">
-        <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
-    </div>
-<div class=" ">
-    <div class="row d-flex justify-content-center">
-        <div class="col-md-3 pt-3 ">
-            <label for="firstname" class="form-label"></label>
-          <input type="text" class="form-control" id="firstname" placeholder="First name">
-        </div>
-        
-        <div class="col-md-3 pt-3 ">
-          <input type="text" class="form-control" placeholder="Last name">
-        </div>
-    </div>
-</div>
-    <div class="form-row mt-3 ">
-        <div class="col-sm-12 d-flex justify-content-center">
-            <div class="col-md-6 ">
-                <input type="email" class="form-control" placeholder="email">
+    <div class="container mt-5 pt-5 text-center text-light ">
+        <h1>Contact Us</h1>
+        <form class="row justify-content-center">
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-3">
+                <label for="firstname" class="form-lable">First Name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="First Name:" required>
             </div>
-        </div>
-    </div>
-    <div class="row mt-5 ">
-        <div class="col-sm-12 ">
-            <div class="col-md-6 offset-md-3">
-                <input type="number" class="form-control" placeholder="Enter Your Age">
+            <div class="col-md-3">
+                <label for="lastname" class="form-lable">Last Name:</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Last Name:" required>
+            </div> 
             </div>
-        </div>
-    </div>
-    <div class="row mt-3 ">
-        <div class="col-sm-12 ">
-            <div class="col-md-6 offset-md-3">
-                <label for="massage" class="form-label"></label>
-                <textarea class="form-control" name="massage" rows="5"></textarea>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6 align-content-center">
+                    <label for="email" class="form-lable">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email:" required>
+                </div>
             </div>
-        </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6">
+                    <label for="phonenum" class="form-lable">Phone Number</label>
+                    <input type="text" class="form-control" id="phonenum" placeholder="Phone Number:" required>
+                </div> 
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6 ">
+                      <label for="comments" class="form-label"></label>
+                      <textarea class="form-control" name="comments" id="comments" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 mb-5 mt-4">
+                    <button type="submit" class="btn btn-primary"> Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
-    <div class="text-center mt-3">
-        <button class="bg-primary" type="submit">Submmit</button>
-    </div>
-</div>
-
-
 
 
 
@@ -80,35 +74,35 @@
 
     <footer class=" text-danger fixed-bottom ">
         <form>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-            <div class="col text-start">
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/facebook.png" alt=""></a>
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/git.png" alt=""></a>
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/link.png" alt=""></a>
-            </div>
-            <div class="col text-center">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+                <div class="col text-start">
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/facebook.png" alt=""></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/git.png" alt=""></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/link.png" alt=""></a>
+                </div>
+                <div class="col text-center">
 
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/link.png" alt=""></a>
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/git.png" alt=""></a>
-            </div>
-            <div class="col text-center">
-                <a href="#"><img class="footerimg" src="../photos/facebook.png" alt=""></a>
-            </div>
-            <div class="col text-center ">
-            </div>
-        </nav>
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/link.png" alt=""></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/git.png" alt=""></a>
+                </div>
+                <div class="col text-center">
+                    <a href="#"><img class="footerimg" src="../photos/facebook.png" alt=""></a>
+                </div>
+                <div class="col text-center ">
+                </div>
+            </nav>
         </form>
-        
+
     </footer>
 </body>
 
