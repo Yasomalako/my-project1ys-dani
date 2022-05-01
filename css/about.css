@@ -2,7 +2,7 @@ body{
   height: 100%;
   background-size: 100% 100%;
   background-size: 100% 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/photos/about\ bgg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/about\ bgg.jpg);
 }
 .nav-logo{
   height: 10vh;
