@@ -35,12 +35,12 @@
         background-repeat: no-repeat;
     }
     50%{
-        background-image: url(/photos/mike1.webp);
+        background-image: url(../photos/mike1.webp);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     100%{
-        background-image: url(photos/a.avif);
+        background-image: url(../photos/a.avif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -55,12 +55,12 @@
         background-repeat: no-repeat;
     }
     50%{
-        background-image: url(photos/thegym2.jpg);
+        background-image: url(../photos/thegym2.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     100%{
-        background-image: url(/photos/a2.avif);
+        background-image: url(..//photos/a2.avif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
