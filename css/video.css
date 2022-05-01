@@ -1,6 +1,7 @@
 body{
     background-image: url(/photos/video\ bgg.jpg) ;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 .navbar-brand img{
     width: 15vw;
@@ -49,7 +50,7 @@ body{
         height: 30vh;    }
 }
 .video4:hover{
-    animation: zoom  alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -59,7 +60,7 @@ body{
         height: 30vh;    }
 }
 .video5:hover{
-    animation: zoom  alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -69,7 +70,7 @@ body{
         height: 30vh;    }
 }
 .video6:hover{
-    animation: zoom  alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -79,7 +80,7 @@ body{
         height: 30vh;    }
 }
 .video7:hover{
-    animation: zoom  alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -89,7 +90,7 @@ body{
         height: 30vh;    }
 }
 .video8:hover{
-    animation: zoom   alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -99,7 +100,7 @@ body{
         height: 30vh;    }
 }
 .video9:hover{
-    animation: zoom  alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -110,7 +111,7 @@ body{
     }
 }
 .video10:hover{
-    animation: zoom   alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
@@ -121,7 +122,7 @@ body{
         }
 }
 .video11:hover{
-    animation: zoom   alternate;
+    animation: zoom 0.5s alternate;
 }
 @keyframes zoom {
     from{
