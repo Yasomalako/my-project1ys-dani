@@ -9,10 +9,7 @@ body{
 .nav-logo:hover{
   height: 11vh;
 }
-.about-1{
-  margin: 30px;
-  padding: 5px;
-}
+
 .about-1 h1{
   text-align: center;
   color:black;

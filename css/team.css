@@ -1,3 +1,7 @@
+    body{
+      background-image: url(/photos/back\ g\ teamm.jpg);
+      background-size: 100% 100%;
+    }
     .team-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 100%;
@@ -18,7 +22,7 @@
   
   h1, p{
       font-size: 15px;
-      color: aliceblue;
+      color: white;
       font-family: 'Lobster', cursive;
   }
 
