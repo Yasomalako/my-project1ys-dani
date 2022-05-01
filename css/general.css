@@ -3,13 +3,12 @@ body{
 }
 .navbar-brand{
     width: 5vw;
+    
 }
 .logo{
     height:5vh;
 }
-#logo1{
-    width: 5vw;
-}
+
 footer img {
     width: 2vw;
 }
