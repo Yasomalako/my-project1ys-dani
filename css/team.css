@@ -1,9 +1,10 @@
     body{
-      background-image: url(/photos/back\ g\ teamm.jpg);
+      background-image: url(../photos/teame\ bbbbg.jpg);
       background-size: 100% 100%;
+      background-attachment: fixed;
     }
     .team-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/photos/back\ g\ teamm.jpg);
     height: 100%;
     width: 60vh;
     background-position: center;
