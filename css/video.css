@@ -6,6 +6,7 @@ body{
 .navbar-brand img{
     width: 15vw;
 }
+@media screen and (min-width:540px){ 
 .video{
     height: 20vh;
     width: 20vw;
@@ -14,4 +15,16 @@ body{
 .video:hover{
     height: 25vh;
     width: 23vw;
+}
+}
+@media screen and (max-width:540px){ 
+    .video{
+        height: 20vh;
+        width: 60vw;
+        transition: 300ms;
+    }
+    .video:hover{
+        height: 28vh;
+        width: 63vw;
+    }
 }
