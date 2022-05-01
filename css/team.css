@@ -1,48 +1,45 @@
-    body{
-      background-image: url(../photos/teame\ bbbbg.jpg);
-      background-size: 100% 100%;
-      background-attachment: fixed;
-    }
-    .team-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/photos/back\ g\ teamm.jpg);
-    height: 100%;
-    width: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-  }
-  
-  .main-team {
-    top: 50%;
-    left: 545px;
-    right: 30px;
-    transform: translate(-50%, -50%);
-    color: white;
+body{
+  background-image: url(../photos/teame\ bbbbg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
-  
-  h1, p{
-      font-size: 15px;
-      color: white;
-      font-family: 'Lobster', cursive;
-  }
-
-  .card{
-    width: 18rem;
-    height: 10%;  
-    justify-content: flex-start;
-    color: black;   
-  }
- .row{
-      display: flex;
-      justify-content: space-between;
- }
-  .square-box{
-      max-width: 600px;
-      min-height: 600px;
-      border: 1px solid black;
-  }
-  .main{
-      background-color: blue;
-      height: 50px;
-  }
+.team-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/photos/back\ g\ teamm.jpg);
+height: 100%;
+width: 60vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: relative;
+}
+.main-team {
+top: 50%;
+left: 545px;
+right: 30px;
+transform: translate(-50%, -50%);
+color: white;
+}
+h1, p{
+  font-size: 15px;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+.card{
+width: 18rem;
+height: 10%;  
+justify-content: flex-start;
+color: black;   
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.square-box{
+  max-width: 600px;
+  min-height: 600px;
+  border: 1px solid black;
+}
+.main{
+  background-color: blue;
+  height: 50px;
+}

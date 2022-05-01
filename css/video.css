@@ -16,7 +16,7 @@ body{
 .video:hover{
     height: 25vh;
     width: 23vw;
-}
+    }
 }
 @media screen and (max-width:540px){ 
     .video{

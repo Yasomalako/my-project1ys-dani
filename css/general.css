@@ -2,15 +2,10 @@ body{
     background-color: white;
 }
 .navbar-brand{
-    width: 5vw;
-    
+    width: 5vw;  
 }
 .logo{
     height:5vh;
-}
-
-footer img {
-    width: 2vw;
 }
 a{
     color:red;
