@@ -24,3 +24,45 @@
 #agetstart{
     background-color: transparent;
 }
+#trans{
+    animation: photo 7s infinite ;
+
+}
+@keyframes photo {
+    0%{
+        background-image: url(/photos/a.avif);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(/photos/mike1.webp);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(/photos/a.avif);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+#trans1{
+    animation: photo1 7s infinite ;
+}
+@keyframes photo1 {
+    0%{
+        background-image: url(../photos/a2.avif);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(/photos/thegym2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(../photos/a2.avif);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
