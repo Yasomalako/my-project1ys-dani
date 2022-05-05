@@ -24,7 +24,7 @@
     background-color: transparent;
 }
 #trans{
-    animation: photo 7s infinite ;
+    animation: photo 7s infinite;
 }
 @keyframes photo {
     0%{
