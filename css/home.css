@@ -30,7 +30,7 @@
     0%{
         background-image: url(../photos/a.avif);
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat:no-repeat;
     }
     50%{
         background-image: url(../photos/mike1.webp);
